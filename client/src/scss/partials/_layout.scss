@@ -53,12 +53,18 @@ body{
     color: $white;
     font-family: 'Roboto Slab', 'sans-serif';
 }
+h1{
+    line-height: 1.75em;
+}
 ul{
     margin-bottom: 0;
 }
 .container{
     width: 80%;
     margin: auto;
+    &-paddingSide{
+        padding-left: 20%;
+    }
 }
 // DISPLAYS
 .d-flex{
