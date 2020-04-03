@@ -1,0 +1,43 @@
+// DESKTOP
+.navbar{
+    position: fixed;
+    top:0;
+    background-color: $bg-color;
+
+    &-nav{
+        padding: 0;
+        height: 100vh;
+        list-style-type: none;
+        animation: navGrow 5000ms;
+        @keyframes navGrow {
+            from {
+                transform: scale(0);
+            }
+            to {transform: scale(1);}
+          }
+        animation-duration: 500ms;
+        &-li{
+            padding-top: 1.5em;
+            padding-bottom: 1.5em;
+        }
+        &-a{
+            color: $light-grey;
+            text-decoration: none;
+            font-size: 3em;
+            cursor: pointer;
+        }
+    }
+}
+
+// MOBILE DEVICES
+@media screen and (max-width: 900px) {
+
+    .navbar{
+        &-burger-btn{
+            color: white;
+        }
+    }
+
+}
+
+

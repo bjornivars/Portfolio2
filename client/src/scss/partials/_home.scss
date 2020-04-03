@@ -1,0 +1,47 @@
+.logo-img{
+    margin-top: 5em
+}
+
+.subhead{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5em;
+    &-design{
+        color: $orange;
+    }
+    &-develop{
+        color: $purple;
+    }
+    &-ux{
+        color: $blue;
+    }
+    &-span{
+        font-size: 3em;
+    }
+}
+.social{
+    border-bottom: 3px solid $grey;
+    padding-bottom: 1em;
+    margin-top: 8em;
+}
+
+
+
+@media screen and (max-width: 599px) {
+    .subhead{
+        display: block;
+        text-align: center;
+        &-design{
+            margin-top: 1em;
+        }
+        &-develop{
+            margin-top: 1em;
+        }
+        &-ux{
+            margin-top: 1em;
+        }
+        &-span{
+            font-size: 2.5em;
+        }
+    }
+}
