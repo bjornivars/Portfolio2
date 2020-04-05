@@ -1,0 +1,33 @@
+.project{
+    &-container{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5em;
+        margin-top: 5em;
+        &-p{
+            color: $light-grey;
+            margin-bottom: 4.5em;
+        }
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .project{
+        &-container{
+            display: block;
+            margin-bottom: 5em;
+            margin-top: 5em;
+            &-p{
+                color: $light-grey;
+                margin-bottom: 4.5em;
+            }
+        }
+    }
+    .row-reverse{
+        display: flex;
+        flex-direction: column;
+    }
+.order{
+    order: -1;
+}
+}
