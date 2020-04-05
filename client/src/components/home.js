@@ -1,4 +1,9 @@
 import React from 'react';
+import Bounce from 'react-reveal/Bounce';
+import Zoom from 'react-reveal/Zoom';
+import Fade from 'react-reveal/Fade';
+
+
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -12,12 +17,17 @@ import {
 
 const HomePage = () => {
 
+
+
     return (
         <div>
+        <Zoom top delay={100}>
             <div className='logo-img col-12 col-mobile-12 d-flex jc-center'>
                 <img className='col-6 col-mobile-12 ' src={require('./../assets/Logos/BIS_logoWhite_logoPNG.png')} alt='logo' />
             </div>
+        </Zoom>
             <div className='subhead col-8 col-mobile-12 m-auto'>
+            <Bounce left delay={750}>
                 <div className='subhead-design'>
                     <span className='subhead-span'>Design</span>
                 </div>
@@ -27,7 +37,9 @@ const HomePage = () => {
                 <div className='subhead-ux'>
                     <span className='subhead-span'>UX / UI</span>
                 </div>
+            </Bounce>
             </div>
+            <Fade delay={1250}>
             <div className='social col-4 col-mobile-8 m-auto d-flex jc-between'>
                 <div className='social-fb'>
                     <FontAwesomeIcon
@@ -59,6 +71,7 @@ const HomePage = () => {
                     />
                 </div>
             </div>
+            </Fade>
         </div>
     )
 }

@@ -1,14 +1,18 @@
 import React from 'react';
+import Fade from 'react-reveal/Fade';
+
 import { Link } from 'react-router-dom';
 
 const WorkPage = () => {
     return (
         <div>
             <div className='project'>
+            <Fade bottom>
                 <div className='project-container'>
                     <div className='project-container-img col-7 col-mobile-12'>
                         <img className='col-10 col-mobile-12' src={require('./../assets/ProjectImages/infotech.png')} alt='Project Infotech' />
                     </div>
+                   
                     <div className='project-container-text col-5 col-mobile-12'>
                         <h2>INFOTECH <br /> Website Redesign</h2>
                         <p className='project-container-p col-10 col-mobile-12'>Infotech AS is a company located
@@ -18,9 +22,13 @@ const WorkPage = () => {
                         <Link className='btn' to=''>Read More</Link>
                     </div>
                 </div>
+                </Fade>
+                <Fade bottom>
                 <div className='col-2 m-auto'>
                     <img className='col-12' src={require('./../assets/Icons/workSplitter.png')} alt='divider' />
                 </div>
+                </Fade>
+                <Fade bottom>
                 <div className='project-container row-reverse '>
                     <div className='project-container-text col-5 col-mobile-12'>
                         <h2>LETHA <br /> E-commerce example</h2>
@@ -35,13 +43,18 @@ const WorkPage = () => {
                         <img className='col-10 col-mobile-12' src={require('./../assets/ProjectImages/letha.png')} alt='Project Infotech' />
                     </div>
                 </div>
+                </Fade>
+                <Fade bottom>
                 <div className='col-2 m-auto'>
                     <img className='col-12' src={require('./../assets/Icons/workSplitter.png')} alt='divider' />
                 </div>
+                </Fade>
+                <Fade bottom>
                 <div className='project-container'>
                     <div className='project-container-img col-7 col-mobile-12'>
                         <img className='col-10 col-mobile-12' src={require('./../assets/ProjectImages/GameOfDragons.png')} alt='Project Infotech' />
                     </div>
+                    
                     <div className='project-container-text col-5 col-mobile-12'>
                         <h2>Game Of  Dragons
                         <br /> Board Game</h2>
@@ -54,6 +67,7 @@ const WorkPage = () => {
                         <Link className='btn' to=''>Read More</Link>
                     </div>
                 </div>
+                </Fade>
             </div>
         </div>
     )

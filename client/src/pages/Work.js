@@ -3,8 +3,6 @@ import React from 'react';
 import WorkPage from './../components/work';
 
 export default function Work() {
-
-
     return (
         <div className='container'>
         <div className='container-paddingSide'>

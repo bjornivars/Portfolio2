@@ -103,11 +103,17 @@ a{
 .headline{
     margin-top: 5em;
 }
-
+.orange{
+    color: $orange;
+}
 
 @media screen and (max-width: 599px) {
     .container{
         width: 90%;
         margin: auto;
+        &-paddingSide{
+            padding-left: 0;
+        }
     }
+
 }
