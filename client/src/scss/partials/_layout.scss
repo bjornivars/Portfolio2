@@ -1,6 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Roboto:ital,wght@0,700;1,400&display=swap');
-// COLUMN SYSTEM
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400;700&family=Roboto:wght@100;300;400;700&display=swap');
 
+
+
+// COLUMN SYSTEM
 // Desktop
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
@@ -60,6 +62,26 @@ h2{
     font-weight: 300;
     margin-bottom: 0;
 }
+h3{
+    font-size: 30px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    margin-bottom: 0;
+}
+h4{
+    font-size: 25px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: $light-grey;
+    margin-bottom: 0;
+}
+h5{
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: $grey;
+    margin-top: 0;
+}
 ul{
     margin-bottom: 0;
 }
@@ -75,6 +97,11 @@ a{
         padding-left: 20%;
     }
 }
+.headline{
+    margin-top: 5em;
+    margin-bottom: 4em;
+}
+
 // DISPLAYS
 .d-flex{
     display: flex;
@@ -100,11 +127,17 @@ a{
     justify-content: center;
 }
 
-.headline{
-    margin-top: 5em;
-}
+
+
+// COLORS
 .orange{
     color: $orange;
+}
+.lightgrey{
+    color: $light-grey;
+}
+.purple{
+    color: $purple;
 }
 
 @media screen and (max-width: 599px) {

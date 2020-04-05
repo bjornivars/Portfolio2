@@ -8,7 +8,7 @@ const WorkPage = () => {
         <div>
             <div className='project'>
             <Fade bottom>
-                <div className='project-container'>
+                <div className='project-container '>
                     <div className='project-container-img col-7 col-mobile-12'>
                         <img className='col-10 col-mobile-12' src={require('./../assets/ProjectImages/infotech.png')} alt='Project Infotech' />
                     </div>

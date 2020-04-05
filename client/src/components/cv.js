@@ -1,0 +1,87 @@
+import React from 'react';
+import Fade from 'react-reveal/Fade';
+
+import { Link } from 'react-router-dom';
+
+const CvPage = () => {
+    return (
+        <div>
+            <div className='cv'>
+                <Fade bottom>
+                    <div className='cv-container col-10'>
+                        <div className='cv-container-company col-5 col-mobile-12'>
+                            <h4 className='col-12 col-mobile-12'>ELKJØP NORDIC AS</h4>
+                            <h5>2019 - PRESENT</h5>
+                        </div>
+                        <div className='cv-container-proffession col-6 col-mobile-12'>
+                            <h3>SALES</h3>
+                            <h5 className='col-12 col-mobile-12 '><a className='purple' href="https://www.elkjop.no/" target="_blank">https://www.elkjop.no/</a> </h5>
+                        </div>
+                    </div>
+                </Fade>
+                <Fade bottom>
+                    <div className='cv-container col-10'>
+                        <div className='cv-container-company col-5 col-mobile-12'>
+                            <h4 className='col-12 col-mobile-12'>PRIMA ASSISTANSE</h4>
+                            <h5>2018 - 2020</h5>
+                        </div>
+                        <div className='cv-container-proffession col-6 col-mobile-12'>
+                            <h3>HEALTH CARE WORKER</h3>
+                            <h5 className='col-12 col-mobile-12 '><a className='purple' href="https://prima-assistanse.no/" target="_blank">https://prima-assistanse.no/</a> </h5>
+                        </div>
+                    </div>
+                </Fade>
+                <Fade bottom>
+                    <div className='cv-container col-10'>
+                        <div className='cv-container-company col-5 col-mobile-12'>
+                            <h4 className='col-12 col-mobile-12'>LYKKELITEN BARNEHAGE</h4>
+                            <h5>2017</h5>
+                        </div>
+                        <div className='cv-container-proffession col-6 col-mobile-12'>
+                            <h3>KINDERGARDEN ASSISTANT</h3>
+                            <h5 className='col-12 col-mobile-12 '><a className='purple' href="https://www.barnehagefakta.no/barnehage/1018584/lykkeliten-barnehage" target="_blank">https://www.barnehagefakta.no/barnehage/1018584/lykkeliten-barnehage</a> </h5>
+                        </div>
+                    </div>
+                </Fade>
+                <Fade bottom>
+                    <div className='cv-container col-10'>
+                        <div className='cv-container-company col-5 col-mobile-12'>
+                            <h4 className='col-12 col-mobile-12'>NORWEGIAN ARMED FORCES</h4>
+                            <h5>2016 - 2017</h5>
+                        </div>
+                        <div className='cv-container-proffession col-6 col-mobile-12'>
+                            <h3>SECURITY AND PROTECTION</h3>
+                            <h5 className='col-12 col-mobile-12 '><a className='purple' href="https://forsvaret.no/" target="_blank">https://forsvaret.no/</a> </h5>
+                        </div>
+                    </div>
+                </Fade>
+                <Fade bottom>
+                    <div className='cv-container col-10'>
+                        <div className='cv-container-company col-5 col-mobile-12'>
+                            <h4 className='col-12 col-mobile-12'>ÅLESUND KOMMUNE</h4>
+                            <h5>2014 - 2017</h5>
+                        </div>
+                        <div className='cv-container-proffession col-6 col-mobile-12'>
+                            <h3>HEALTH CARE WORKER</h3>
+                            <h5 className='col-12 col-mobile-12 '><a className='purple' href="https://alesund.kommune.no/" target="_blank">https://alesund.kommune.no/</a> </h5>
+                        </div>
+                    </div>
+                </Fade>
+                <Fade bottom>
+                    <div className='cv-container col-10'>
+                        <div className='cv-container-company col-4 col-mobile-12'>
+                            <h4 className='col-12 col-mobile-12'>NORGESGRUPPEN</h4>
+                            <h5>2012 - 2016</h5>
+                        </div>
+                        <div className='cv-container-proffession col-6 col-mobile-12'>
+                            <h3>PART-TIME EMPLOYEE</h3>
+                            <h5 className='col-12 col-mobile-12 '><a className='purple' href="https://www.norgesgruppen.no/" target="_blank">https://www.norgesgruppen.no/</a> </h5>
+                        </div>
+                    </div>
+                </Fade>
+            </div>
+        </div>
+    )
+}
+
+export default CvPage;

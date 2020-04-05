@@ -1,6 +1,22 @@
 .about{
-    &-img{
-        padding: 1em;
-        border: 2px solid $orange;
+    &-container{
+        display: flex;
+        justify-content: space-between;
+        &-img{
+            padding: 1em;
+            border: 3px solid $orange;
+        }
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .about{
+        &-container{
+            display: block;
+            &-img{
+                padding: 1em;
+                border: 3px solid $orange;
+            }
+        }
     }
 }
