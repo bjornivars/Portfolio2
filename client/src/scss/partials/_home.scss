@@ -40,8 +40,16 @@
         &-ux{
             margin-top: 1em;
         }
-        &-span{
-            font-size: 2.5em;
-        }
     }
 }
+
+@media screen and (min-width: 320px) {
+    .subhead-span {
+      font-size: calc(30px + 10 * ((100vw - 320px) / 680));
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .subhead-span {
+      font-size: 3em;
+    }
+  }
