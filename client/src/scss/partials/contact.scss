@@ -1,7 +1,7 @@
 .contact{
     &-form{
         font-family: 'Roboto';
-        
+
         &-label{
             display: block;
             width: 100%;
@@ -15,4 +15,27 @@
             padding: 1em;
         }
     }
+}
+
+@media screen and (max-width: 599px) {
+    .contact{
+        &-form{
+            font-family: 'Roboto';
+            margin: auto;
+            &-label{
+                display: flex;
+                justify-content: flex-start;
+                width: 80%;
+                margin-bottom: .25em;
+                color: $light-grey;
+            }
+            &-input{
+                display: block;
+                width: 80%;
+                margin-bottom: 2.5em;
+                padding: 1em;
+            }
+        }
+    }
+
 }
