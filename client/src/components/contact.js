@@ -1,3 +1,4 @@
+/*
 import React from 'react';
 import Bounce from 'react-reveal/Bounce';
 
@@ -48,4 +49,4 @@ const ContactPage = () => {
     )
 }
 
-export default ContactPage;
+export default ContactPage;*/
