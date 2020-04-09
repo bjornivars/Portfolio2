@@ -16,7 +16,7 @@ const WorkPage = ({ name, type, intro, imageUrl }) => {
                     <div className='project-container-text col-5 col-mobile-12'>
                         <h2>{name} <br /> {type}</h2>
                         <p className='project-container-p col-10 col-mobile-12'>{intro} </p>
-                        <Link className='btn' to={`/workSpecific/${name}`}>Read More</Link>
+                        <Link className='btn' to={`/workSpecific/${name.toLowerCase()}`}>Read More</Link>
                     </div>
                 </div>
                 </Fade>

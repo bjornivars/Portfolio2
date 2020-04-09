@@ -13,8 +13,7 @@ const WorkClick = (props) => {
                             <h2>{type}</h2>
 
                             <h3>Brief</h3>
-                            <p>{brief}</p>
-                            
+                            <p dangerouslySetInnerHTML={{__html: brief}} />
                             <h3>Planning and Design</h3>
                             <p> {planningP1}</p>
                             <p>{planningP2}</p>

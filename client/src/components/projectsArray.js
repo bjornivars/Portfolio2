@@ -3,8 +3,8 @@ const projects = [
         id: 1,
         name: 'INFOTECH',
         type: 'Website Redesign',
-        intro: 'Infotech AS is a company located in Bergen, Norway. During the first year of my studies, we were asked to do a redesign of their website.', 
-        brief: 'Create a new webpage for Infotech AS. The company wants a website that is informative and appealing, that will attract both existing clients and new clients. The website should be responsive and be easy to use on a variety of devices.',
+        intro: 'Infotech AS is a <br> company located in Bergen, Norway. During the first year of my studies, we were asked to do a redesign of their website.', 
+        brief: 'Create a new webpage<br><br> for Infotech AS. The company wants a website that is informative and appealing, that will attract both existing clients and new clients. The website should be responsive and be easy to use on a variety of devices.',
         imageUrl: 'https://i.imgur.com/aa2qKIh.png',
         process: [{
             image: '', 
