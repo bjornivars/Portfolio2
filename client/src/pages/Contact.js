@@ -12,10 +12,10 @@ export default function App() {
     return (
         <div className='container'>
         <div className='container-paddingSide blue'>
-        <h1 className='headline'>Here are some of my projects <br />
-        during these two years at school.</h1>
+        <h1 className='headline'>Feel free to contact me! <br />
+        Fill out the form below</h1>
     </div>
-        <form onSubmit={handleSubmit(onSubmit)}>
+        <form onSubmit={handleSubmit(onSubmit)} action='https://submit-form.com/OqasYc1l-o24N3tDSW55W'>
             <label>First Name</label>
             <input type="text"
                 placeholder="First Name"

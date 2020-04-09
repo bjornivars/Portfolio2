@@ -3,27 +3,29 @@ import Fade from 'react-reveal/Fade';
 
 import { Link } from 'react-router-dom';
 
-const WorkPage = () => {
+const WorkPage = ({ name, type, intro, imageUrl }) => {
     return (
         <div>
             <div className='project'>
             <Fade bottom>
                 <div className='project-container '>
                     <div className='project-container-img col-7 col-mobile-12'>
-                        <img className='col-10 col-mobile-12' src={require('./../assets/ProjectImages/infotech.png')} alt='Project Infotech' />
+                        <img className='col-10 col-mobile-12' src={imageUrl} alt={name} />
                     </div>
                    
                     <div className='project-container-text col-5 col-mobile-12'>
-                        <h2>INFOTECH <br /> Website Redesign</h2>
-                        <p className='project-container-p col-10 col-mobile-12'>Infotech AS is a company located
-                        in Bergen, Norway. During the first
-                        year of my studies, we were asked to
-                        do a redesign of their website. </p>
-                        <Link className='btn' to=''>Read More</Link>
+                        <h2>{name} <br /> {type}</h2>
+                        <p className='project-container-p col-10 col-mobile-12'>{intro} </p>
+                        <Link className='btn' to={`/workSpecific/${name}`}>Read More</Link>
                     </div>
                 </div>
                 </Fade>
                 <Fade bottom>
+                <div className='col-2 m-auto'>
+                    <img className='col-12' src={require('./../assets/Icons/workSplitter.png')} alt='divider' />
+                </div>
+                </Fade>
+                {/* <Fade bottom>
                 <div className='col-2 m-auto'>
                     <img className='col-12' src={require('./../assets/Icons/workSplitter.png')} alt='divider' />
                 </div>
@@ -67,7 +69,7 @@ const WorkPage = () => {
                         <Link className='btn' to=''>Read More</Link>
                     </div>
                 </div>
-                </Fade>
+                </Fade> */}
             </div>
         </div>
     )

@@ -13,6 +13,7 @@ import Work from './pages/Work';
 import Cv from './pages/Cv';
 import Contact from './pages/Contact';
 import About from './pages/About';
+import WorkSpecific from './pages/WorkSpecific';
 
 ReactDOM.render(
   <Router>
@@ -23,6 +24,7 @@ ReactDOM.render(
         <Route path='/cv' exact component={Cv} />
         <Route path='/contact' exact component={Contact} />
         <Route path='/about' exact component={About} />
+        <Route path='/workSpecific/:name/' exact component={WorkSpecific} />
 
       </Switch>
     </App>
