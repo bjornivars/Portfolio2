@@ -1,5 +1,5 @@
-const projects = {
-    1: {
+const projects = [
+    {
         id: 1,
         name: 'INFOTECH',
         type: 'Website Redesign',
@@ -39,7 +39,7 @@ const projects = {
 
         }]
     },
-   2: {
+{
         id: 2,
         name: 'LETHA',
         type: 'E-commerce example',
@@ -79,7 +79,7 @@ const projects = {
 
         }]
     },
-   3: {
+{
         id: 3,
         name: 'Game Of Dragons',
         type: 'Board Game',
@@ -119,8 +119,7 @@ const projects = {
 
         }]
     }
-}
-
+]
 
 
 

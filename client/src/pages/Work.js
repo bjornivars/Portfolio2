@@ -4,6 +4,15 @@ import WorkPage from './../components/work';
 import projects from './../components/projectsArray';
 
 export default function Work() {
+/*     let newProject = [];
+    for (let key in projects) {
+        if (projects.hasOwnProperty(key)) {
+            newProject.push(projects[key]);
+            
+        }
+    } */
+
+    console.log(projects)
     return (
         <div className='container'>
             <div className='container-paddingSide'>
@@ -12,11 +21,11 @@ export default function Work() {
             </div>
             <> {
                 (projects !== undefined) ?
-                Object.keys(projects).map((value, index) => {
+                projects.map((value, index) => {
                     return <WorkPage key={index}
                       name={value.name}
                       type={value.type}
-                      brief={value.intro}
+                      intro={value.intro}
                       id={value.id}
                       imageUrl={value.imageUrl}
                     />
