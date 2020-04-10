@@ -5,19 +5,16 @@ const WorkClick = (props) => {
     return (
         <>
             <div className=' [ col-8 col-mobile-10 m-auto ] '>
-                <div className=''>
-                    <div className=' [ ] '>
-                        <img className=' [ col-12 col-mobile-12 ] ' src={imageUrl} alt={name}/>
-                        <div className=' [ mt-5 col-12 col-md-6 ] '>
-                            <h1 className=''>{name}</h1>
-                            <h2>{type}</h2>
-
-                            <h3>Brief</h3>
-                            <p dangerouslySetInnerHTML={{__html: brief}} />
+                <div className=' [ specific ] '>
+                        <div className=' [ specific-box col-12 ] '>
+                            <h1 className=' [ specific-box-header ] '>{name} - {type}</h1>
+                            <p dangerouslySetInnerHTML={{__html: brief}} className='project-container-p '/>
+                            <img className='col-12' src={imageUrl} alt={name} />
+                            <div className=' [ col-8 m-auto ] '>
                             <h3>Planning and Design</h3>
-                            <p dangerouslySetInnerHTML={{__html: planningText}} />
+                            <p dangerouslySetInnerHTML={{__html: planningText}} className='project-container-p'/>
+                            </div>
                         </div>
-                    </div>
                 </div>
             </div>
         </>

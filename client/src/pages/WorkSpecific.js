@@ -19,6 +19,7 @@ export default function WorkSpecific() {
                         <WorkClick
                             name={p.name}
                             type={p.type}
+                            imageUrl={p.imageUrl}
                             brief={p.brief}
                             planningText={p.process[0].planningAndDesign[0].text}
                         /> :
