@@ -1,7 +1,7 @@
 import React from 'react';
 
 const WorkClick = (props) => {
-    const { name, type, brief, imageUrl, planningP1, planningP2, planningP3, planningP4, planningImage } = props;
+    const { name, type, brief, imageUrl, planningText, planningImage } = props;
     return (
         <>
             <div className=' [ col-8 col-mobile-10 m-auto ] '>
@@ -15,10 +15,7 @@ const WorkClick = (props) => {
                             <h3>Brief</h3>
                             <p dangerouslySetInnerHTML={{__html: brief}} />
                             <h3>Planning and Design</h3>
-                            <p> {planningP1}</p>
-                            <p>{planningP2}</p>
-                            <p>{planningP3}</p>
-                            <p>{planningP4}</p>
+                            <p dangerouslySetInnerHTML={{__html: planningText}} />
                         </div>
                     </div>
                 </div>

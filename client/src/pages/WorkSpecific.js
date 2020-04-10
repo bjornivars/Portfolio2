@@ -10,7 +10,7 @@ export default function WorkSpecific() {
  for (let proj in projects) {
      if (projects[proj].name.toLocaleLowerCase() == name) {
          let p = projects[proj]
-         console.log(p.name)
+         console.log(p.process[0].planningAndDesign[0].text)
     return (
         <div>
             <div className=' [ col-md-12 ] '>
@@ -20,7 +20,7 @@ export default function WorkSpecific() {
                             name={p.name}
                             type={p.type}
                             brief={p.brief}
-
+                            planningText={p.process[0].planningAndDesign[0].text}
                         /> :
                         <div className=' [ d-flex justify-content-center col-md-6 ] '>
                             <img className=' [ w-100 ] ' src='https://flevix.com/wp-content/uploads/2019/07/Bubble-Preloader-1.gif' alt='loading' />
