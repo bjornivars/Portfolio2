@@ -4,6 +4,10 @@
         justify-content: space-between;
         margin-bottom: 5em;
         margin-top: 5em;
+        &-img{
+            padding: 1em;
+            border: 3px solid $white;
+        }
         &-p{
             color: $light-grey;
             margin-bottom: 4.5em;

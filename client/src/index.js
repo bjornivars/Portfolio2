@@ -14,10 +14,12 @@ import Cv from './pages/Cv';
 import Contact from './pages/Contact';
 import About from './pages/About';
 import WorkSpecific from './pages/WorkSpecific';
+import ScrollToTop from './components/scrollToTop';
 
 ReactDOM.render(
   <Router>
     <App>
+      <ScrollToTop />
       <Switch>
         <Route path='/' exact component={Home} />
         <Route path='/work' exact component={Work} />
@@ -31,7 +33,7 @@ ReactDOM.render(
   </Router>,
 
 
-document.getElementById('root'));
+  document.getElementById('root'));
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA

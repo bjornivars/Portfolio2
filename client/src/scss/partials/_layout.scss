@@ -55,8 +55,12 @@ body{
     color: $white;
     font-family: 'Roboto Slab', 'sans-serif';
 }
+.cursive{
+    font-style: italic;
+}
 p{
     font-family: 'Roboto', 'sans-serif';
+    font-size: 18px;
 }
 h1{
     line-height: 1.75em;
