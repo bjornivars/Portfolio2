@@ -19,7 +19,7 @@ const Navbar = () => {
         <div>
             <nav className=' [ navbar ] '>
             <div className='d-flex jc-between'>
-                <img className='navbar-nav-img col-2 col-mobile-4' src={require('./../assets/Logos/BIS_logoWide.png')} alt='logo' />
+                <Link to='/'><img className='navbar-nav-img col-2 col-mobile-4' src={require('./../assets/Logos/BIS_logoWide.png')} alt='logo' /></Link>
                 <button className='navbar-burger-btn' type='button' onClick={(showMore !== true) ? handleClick : handleSecondClick}>
                     <FontAwesomeIcon icon={faBars} className='col-mobile-6'/>
                 </button>

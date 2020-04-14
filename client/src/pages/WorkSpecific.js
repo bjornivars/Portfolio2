@@ -8,7 +8,7 @@ export default function WorkSpecific() {
 
 
  for (let proj in projects) {
-     if (projects[proj].name.toLocaleLowerCase() == name) {
+     if (projects[proj].name.toLocaleLowerCase() === name) {
          let p = projects[proj]
          //console.log(p.process[0].design[0])
     return (
