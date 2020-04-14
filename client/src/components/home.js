@@ -22,8 +22,8 @@ const HomePage = () => {
     return (
         <div>
         <Zoom top delay={100}>
-            <div className='logo-img col-12 col-mobile-12 d-flex jc-center'>
-                <img className='col-6 col-mobile-12 ' src={require('./../assets/Logos/BIS_logoWhite_logoPNG.png')} alt='logo' />
+            <div className='logo-img col-12 col-mobile-12 text-center'>
+                <img className='col-6 col-mobile-12 m-auto' src={require('./../assets/Logos/BIS_logoWhite_logoPNG.png')} alt='logo' />
             </div>
         </Zoom>
             <div className='subhead col-8 col-mobile-12 m-auto'>

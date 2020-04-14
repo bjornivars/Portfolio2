@@ -8,7 +8,7 @@ const AboutPage = () => {
             <div className='about col-12'>
                 <Fade bottom>
                     <div className='about-container col-12 '>
-                        <img className='col-4 col-mobile-10 m-auto about-container-img' src={require('./../assets/About/imgOfMe.png')} alt='This is me' />
+                        <img className='col-4 col-mobile-10 m-auto about-container-img' src='https://i.imgur.com/GCKHu2j.png' alt='This is me' />
 
                         <div className='about-container-text col-6 col-mobile-12'>
                             <h2>Student at Noroff</h2>

@@ -1,5 +1,7 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
+import guardPdf from './../assets/Courses/vekterkurs.pdf';
+import firstAidPdf from './../assets/Courses/firstAid.pdf';
 
 //import { Link } from 'react-router-dom';
 
@@ -15,7 +17,7 @@ const CvCoursesPage = () => {
                         </div>
                         <div className='cv-container-proffession col-6 col-mobile-12'>
                             <h3>SECURITY TRAINING LEVEL 1</h3>
-                            <h5 className='col-12 col-mobile-12 '><a className='purple' target="_blank" rel="noopener noreferrer">PDF LINK HERE</a> </h5>
+                            <h5 className='col-12 col-mobile-12 '><a className='purple' href={guardPdf} target="_blank" rel="noopener noreferrer">PDF</a> </h5>
                         </div>
                     </div>
                 </Fade>
@@ -27,7 +29,7 @@ const CvCoursesPage = () => {
                         </div>
                         <div className='cv-container-proffession col-6 col-mobile-12'>
                             <h3>FIRST AID COURSE</h3>
-                            <h5 className='col-12 col-mobile-12 '><a className='purple' target="_blank" rel="noopener noreferrer">PDF LINK HERE</a> </h5>
+                            <h5 className='col-12 col-mobile-12 '><a className='purple' href={firstAidPdf} target="_blank" rel="noopener noreferrer">PDF</a> </h5>
                         </div>
                     </div>
                 </Fade>
