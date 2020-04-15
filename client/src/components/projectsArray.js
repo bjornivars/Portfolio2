@@ -3,12 +3,12 @@ const projects = [
         id: 1,
         name: 'INFOTECH',
         type: 'Website Redesign',
-        intro: 'Infotech AS is a company located in Bergen, Norway. During the first year of my studies, we were asked to do a redesign of their website.', 
+        intro: 'Infotech AS is a company located in Bergen, Norway. During the first year of my studies, we were asked to do a redesign of their website.',
         brief: 'Create a new webpage for Infotech AS. The company wants a website that is informative and appealing, that will attract both existing clients and new clients. The website should be responsive and be easy to use on a variety of devices.',
         imageUrl: 'https://i.imgur.com/aa2qKIh.png',
         process: [{
             text: 'For this task, I planned, redesigned and developed a new website for the company Infotech AS. I used three and a half week to finish the project, and the time was split in three phases; planning, developing and release.',
-            image: '', 
+            image: '',
             design: [{
                 colorText: 'The colors used for this website was chosen with care. As the target audience of this website is construction workers, I chose a color palette with familiar constuction-colors. Orange is a color often seen on trucks, excavators, etc, and gray is a solid color that gives a feeling of durability and quality.',
                 colorImage: 'https://i.imgur.com/ndX7u0v.png',
@@ -23,16 +23,16 @@ const projects = [
             }],
         }]
     },
-{
+    {
         id: 2,
         name: 'LETHA',
         type: 'E-commerce example',
-        intro: 'This was an e-commerce website example from my first year of school.', 
+        intro: 'This was an e-commerce website example from my first year of school.',
         brief: 'Create an e-commerce website for a leather shoe company called ‘Letha’. The company emphasizes that their shoes are handcrafted and that the leather they use is organic and sustainably made. Letha has a target audience of affluent and trendy 20 and 30 somethings.',
         imageUrl: 'https://i.imgur.com/obgeNBJ.png',
         process: [{
             text: 'The process included design, testing, and developing of the website. I chose a clean, light design, with boxes displaying and highlighting the products for easy navigation.',
-            image: '', 
+            image: '',
             design: [{
                 colorText: 'colors text here',
                 colorImage: 'https://i.imgur.com/akCgJ2t.png',
@@ -47,16 +47,16 @@ const projects = [
             }],
         }]
     },
-{
+    {
         id: 3,
         name: 'Game Of Dragons',
         type: 'Board Game',
-        intro: ' Game Of Dragons was a project where I made a Game of Thrones themed Board Game. The game is built with HTML, CSS and JavaScript.', 
+        intro: ' Game Of Dragons was a project where I made a Game of Thrones themed Board Game. The game is built with HTML, CSS and JavaScript.',
         brief: 'You will be building an online board game for Game of Thrones. The board game will be made using HTML, CSS and JavaScript. You do not need to have seen or read Game of Thrones to be able to complete the assignment.',
         imageUrl: 'https://i.imgur.com/jUU9yD0.png',
         process: [{
             text: 'The process included designing the Board Game, developing it, testing it, and publishing it. ',
-            image: '', 
+            image: '',
             design: [{
                 colorText: 'colors text here',
                 colorImage: 'https://i.imgur.com/SQJeKdt.png',
@@ -72,73 +72,29 @@ const projects = [
         }]
     },
     {
-            id: 4,
-            name: 'React Dashboard',
-            type: 'Dashboard',
-            intro: 'This was a project I did when learning React. It is a dashboard where I focused on routing, fetching APIs, and creating login and data using Strapi.', 
-            brief: 'Make a dashboard where you can search for movies, check the weather, read a random fact, and check crypto currency. You should also make a Blog page, a Contact page, a Profile page, and a Job page. You should be able to search after specific jobs. Use Strapi to log into your dashboard.',
-            imageUrl: 'https://i.imgur.com/4Zp6jjV.png',
-            process: [{
-                text: 'The process included sketching the dashboard, creating a Strapi user and create information in Strapi, and develop the dashboard using React. ',
-                image: '', 
-                design: [{
-                    colorText: 'colors text here',
-                    colorImage: 'https://i.imgur.com/iMpx3b9.png',
-                    iconText: 'Font Awesome icons were used in this project, so I did not create any of them myself. The icons for weather were icons directly from the API',
-                    iconImage: 'https://i.imgur.com/IYavzcC.png',
-                    prototypeText: 'Since this was a create as you go project, I did not make any detailed sketches for this one. I did a non-detailed sketch to collect my thoughts on how it should look, but nothing specific. Therefore, the final result and the sketch is not matching as much as i anticipated.',
-                    prototypeImage: 'https://i.imgur.com/ypkRExV.png',
-                }],
-                develop: [{
-                    text: 'This project was made to learn React basics. Fetching APIs, changing between Views, searching for items inside the APIs etc. There was no use of Hooks, or any React libraries. I did use Bootstrap and Sass for layout and styling.',
-                    image: 'https://i.imgur.com/qLp6Wan.png',
-                }],
-            }]
-        }
+        id: 4,
+        name: 'React Dashboard',
+        type: 'Dashboard',
+        intro: 'This was a project I did when learning React. It is a dashboard where I focused on routing, fetching APIs, and creating login and data using Strapi.',
+        brief: 'Make a dashboard where you can search for movies, check the weather, read a random fact, and check crypto currency. You should also make a Blog page, a Contact page, a Profile page, and a Job page. You should be able to search after specific jobs. Use Strapi to log into your dashboard.',
+        imageUrl: 'https://i.imgur.com/4Zp6jjV.png',
+        process: [{
+            text: 'The process included sketching the dashboard, creating a Strapi user and create information in Strapi, and develop the dashboard using React. ',
+            image: '',
+            design: [{
+                colorText: 'colors text here',
+                colorImage: 'https://i.imgur.com/iMpx3b9.png',
+                iconText: 'Font Awesome icons were used in this project, so I did not create any of them myself. The icons for weather were icons directly from the API',
+                iconImage: 'https://i.imgur.com/IYavzcC.png',
+                prototypeText: 'Since this was a create as you go project, I did not make any detailed sketches for this one. I did a non-detailed sketch to collect my thoughts on how it should look, but nothing specific. Therefore, the final result and the sketch is not matching as much as i anticipated.',
+                prototypeImage: 'https://i.imgur.com/ypkRExV.png',
+            }],
+            develop: [{
+                text: 'This project was made to learn React basics. Fetching APIs, changing between Views, searching for items inside the APIs etc. There was no use of Hooks, or any React libraries. I did use Bootstrap and Sass for layout and styling.',
+                image: 'https://i.imgur.com/qLp6Wan.png',
+            }],
+        }]
+    }
 ]
 
-
-
-export default projects; 
-
-/* ,
-    {
-        id: 3,
-        name: '',
-        type: '',
-        intro: '', 
-        brief: '',
-        imageUrl: '',
-        process: [{
-            image: '', 
-            planningAndDesign: [{
-                pOne: '',
-                pTwo: '',
-                pThree: '',
-                pFour: '',
-                image: '',
-            }],
-            developing: [{
-                pOne: '',
-                pTwo: '',
-                pThree: '',
-                pFour: '',
-                image: '',
-            }],
-            release: [{
-                pOne: '',
-                pTwo: '',
-                pThree: '',
-                pFour: '',
-                image: '',
-            }],
-            recentChanges: [{
-                pOne: '',
-                pTwo: '',
-                pThree: '',
-                pFour: '',
-                image: '',
-            }]
-
-        }]
-    } */
+export default projects;

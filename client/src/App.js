@@ -1,6 +1,7 @@
 import React from 'react';
 import './scss/styles.scss';
 import Navbar from './components/navbar';
+import Footer from './components/footer';
 
 
 export default function App(props) {
@@ -9,7 +10,7 @@ export default function App(props) {
     <div className='App'>
       <Navbar /> 
         {props.children}
-      {/*   <Footer /> */}
+       <Footer /> 
     </div>
   )
 

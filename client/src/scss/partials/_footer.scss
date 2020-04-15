@@ -1,0 +1,14 @@
+.footer{
+    margin-top: 5em;
+    &-imgBox{
+        &-img{
+
+        }
+    }
+    &-ul{
+        text-decoration: none;
+        list-style-type: none;
+        text-align: center;
+        padding: 0;
+    }
+}
