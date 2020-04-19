@@ -29,6 +29,7 @@ export default function WorkSpecific() {
                                     prototypeImage={p.process[0].design[0].prototypeImage}
                                     developText={p.process[0].develop[0].text}
                                     developImage={p.process[0].develop[0].image}
+                                    websiteUrl={p.websiteUrl}
                                 /> :
                                 <div className=' [ d-flex justify-content-center col-md-6 ] '>
                                     <img className=' [ w-100 ] ' src='https://flevix.com/wp-content/uploads/2019/07/Bubble-Preloader-1.gif' alt='loading' />
