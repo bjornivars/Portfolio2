@@ -47,7 +47,7 @@ const HomePage = () => {
             </div>
             <Fade delay={1250}>
                 <div className=' [ social col-4 col-mobile-8 m-auto d-flex jc-between ] '>
-                    <a href='https://www.linkedin.com/in/bjorn-ivar-skuggen/' target='_blank'>
+                    <a href='https://www.linkedin.com/in/bjorn-ivar-skuggen/' target='_blank' rel="noopener noreferrer">
                         <div className=' [ social-fb ] '>
                             <FontAwesomeIcon
                                 icon={faLinkedinIn}
@@ -55,7 +55,7 @@ const HomePage = () => {
                                 className=' [ col-mobile-6 ] ' />
                         </div>
                     </a>
-                    <a href='https://www.instagram.com/bjornivarskuggen/' target='_blank'>
+                    <a href='https://www.instagram.com/bjornivarskuggen/' target='_blank' rel="noopener noreferrer">
                         <div className=' [ social-insta ] '>
                             <FontAwesomeIcon
                                 icon={faInstagram}
@@ -64,7 +64,7 @@ const HomePage = () => {
                             />
                         </div>
                     </a>
-                    <a href='https://twitter.com/bnneburger' target='_blank'>
+                    <a href='https://twitter.com/bnneburger' target='_blank' rel="noopener noreferrer">
                         <div className=' [ social-twitter ] '>
                             <FontAwesomeIcon
                                 icon={faTwitter}
@@ -74,7 +74,7 @@ const HomePage = () => {
                             />
                         </div>
                     </a>
-                    <a href='https://www.facebook.com/bjorn.ivar.skuggen' target='_blank'>
+                    <a href='https://www.facebook.com/bjorn.ivar.skuggen' target='_blank' rel="noopener noreferrer">
                         <div className=' [ subhead-facebook ] '>
                             <FontAwesomeIcon
                                 icon={faFacebook}

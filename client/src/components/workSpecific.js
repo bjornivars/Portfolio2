@@ -1,6 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-
 
 const WorkClick = (props) => {
     const { name, type, brief, imageUrl, colorText, colorImage, iconText, iconImage, prototypeText, prototypeImage, developImage, developText, websiteUrl } = props;
@@ -32,7 +30,7 @@ const WorkClick = (props) => {
                             <p dangerouslySetInnerHTML={{ __html: developText }} className='project-container-p' />
 
                             <h3 className=' [ specific-box-subheader ] '>Check out the final result!</h3>
-                            <a href={websiteUrl} target='_blank' >
+                            <a href={websiteUrl} target='_blank' rel="noopener noreferrer">
                                 <img className=' [ col-8 m-auto col-mobile-11 ] ' src={imageUrl} alt='Icons' />
                             </a>
 

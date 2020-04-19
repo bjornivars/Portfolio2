@@ -8,10 +8,10 @@ const Navbar = () => {
 
     const [showMore, setShowMore] = useState(false);
 
-    const handleClick = () => {
+    const handleOpenClick = () => {
         setShowMore(true);
     }
-    const handleSecondClick = () => {
+    const handleCloseClick = () => {
         setShowMore(false);
     }
 
@@ -20,7 +20,7 @@ const Navbar = () => {
             <nav className=' [ navbar ] '>
                 <div className=' [ d-flex jc-between ] '>
                     <Link to='/'><img className=' [ navbar-nav-img col-2 col-mobile-4 ] ' src={require('./../assets/Logos/BIS_logoWide.png')} alt='logo' /></Link>
-                    <button className=' [ navbar-burger-btn ] ' type='button' onClick={(showMore !== true) ? handleClick : handleSecondClick}>
+                    <button className=' [ navbar-burger-btn ] ' type='button' onClick={(showMore !== true) ? handleOpenClick : handleCloseClick}>
                         <FontAwesomeIcon icon={(showMore !== true) ? faBars : faTimes} className=' [ col-mobile-6 ] ' />
                     </button>
                 </div>
@@ -28,19 +28,19 @@ const Navbar = () => {
                 <div className={(showMore !== true) ? ' [ d-none ] ' : ' [ d-block col-md-12 text-center ] '}>
                     <ul className=' [ navbar-nav ] '>
                         <li className=' [ navbar-nav-li ] '>
-                            <Link className=' [ navbar-nav-a ] ' to='/' onClick={handleSecondClick}>{'Home'}</Link>
+                            <Link className=' [ navbar-nav-a ] ' to='/' onClick={handleCloseClick}>{'Home'}</Link>
                         </li>
                         <li className=' [ navbar-nav-li ] '>
-                            <Link className=' [ navbar-nav-a ] ' to='/work' onClick={handleSecondClick}>{'Work'}</Link>
+                            <Link className=' [ navbar-nav-a ] ' to='/work' onClick={handleCloseClick}>{'Work'}</Link>
                         </li>
                         <li className=' [ navbar-nav-li ] '>
-                            <Link className=' [ navbar-nav-a ] ' to='/cv' onClick={handleSecondClick}>{'CV'}</Link>
+                            <Link className=' [ navbar-nav-a ] ' to='/cv' onClick={handleCloseClick}>{'CV'}</Link>
                         </li>
                         <li className=' [ navbar-nav-li ] '>
-                            <Link className=' [ navbar-nav-a ] ' to='/about' onClick={handleSecondClick}>{'About'}</Link>
+                            <Link className=' [ navbar-nav-a ] ' to='/about' onClick={handleCloseClick}>{'About'}</Link>
                         </li>
                         <li className=' [ navbar-nav-li ] '>
-                            <Link className=' [ navbar-nav-a ] ' to='/contact' onClick={handleSecondClick}>{'Contact'}</Link>
+                            <Link className=' [ navbar-nav-a ] ' to='/contact' onClick={handleCloseClick}>{'Contact'}</Link>
                         </li>
                     </ul>
                 </div>

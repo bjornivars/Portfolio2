@@ -12,4 +12,10 @@
         text-align: center;
         padding: 0;
     }
+    &-li-a{
+        &:hover{
+            color: $white;
+            text-decoration: underline;
+        }
+    }
 }
