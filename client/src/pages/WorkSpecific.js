@@ -1,7 +1,12 @@
 import { useParams } from "react-router";
+import { Link } from 'react-router-dom';
 import React from 'react';
 import projects from './../components/projectsArray';
 import WorkClick from './../components/workSpecific';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+    faArrowLeft
+} from '@fortawesome/free-solid-svg-icons';
 
 export default function WorkSpecific() {
     let { name } = useParams();
@@ -13,6 +18,17 @@ export default function WorkSpecific() {
             
             return (
                 <div>
+                <div>
+                <Link to='/work' className=' [ back ] '>
+                <FontAwesomeIcon
+                                icon={faArrowLeft}
+                                //color='white'
+                                size='lg'
+                                className=' [ back-arrow ] '
+                            />
+                            <span className=' [ back-arrow-text ] '>Back</span>
+                </Link>
+                </div>
                     <div className=' [ col-md-12 ] '>
                         {
                             (p !== undefined) ?

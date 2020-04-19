@@ -14,6 +14,23 @@
         }
     }
 }
+.back{
+    position:fixed;
+    top:10;
+    margin-left: 1em;
+    z-index:100;
+    color: $light-grey;
+    &:hover{
+        color: $white;
+        font-weight: bold;
+    }
+    &-arrow{
+        &-text{
+            padding-left: .75em;
+        }
+    }
+}
+
 
 @media screen and (max-width: 599px) {
     .project{

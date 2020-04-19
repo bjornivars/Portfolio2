@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
 
 const Navbar = () => {
 
@@ -21,7 +21,7 @@ const Navbar = () => {
                 <div className=' [ d-flex jc-between ] '>
                     <Link to='/'><img className=' [ navbar-nav-img col-2 col-mobile-4 ] ' src={require('./../assets/Logos/BIS_logoWide.png')} alt='logo' /></Link>
                     <button className=' [ navbar-burger-btn ] ' type='button' onClick={(showMore !== true) ? handleClick : handleSecondClick}>
-                        <FontAwesomeIcon icon={faBars} className=' [ col-mobile-6 ] ' />
+                        <FontAwesomeIcon icon={(showMore !== true) ? faBars : faTimes} className=' [ col-mobile-6 ] ' />
                     </button>
                 </div>
 
@@ -42,8 +42,6 @@ const Navbar = () => {
                         <li className=' [ navbar-nav-li ] '>
                             <Link className=' [ navbar-nav-a ] ' to='/contact' onClick={handleSecondClick}>{'Contact'}</Link>
                         </li>
-                        <br />
-                        <span className=' [ navbar-nav-a ] ' onClick={handleSecondClick}>X</span>
                     </ul>
                 </div>
             </nav>
