@@ -34,7 +34,7 @@ const projects = [
             text: 'The process included design, testing, and developing of the website. I chose a clean, light design, with boxes displaying and highlighting the products for easy navigation.',
             image: '',
             design: [{
-                colorText: 'colors text here',
+                colorText: 'The colors for Letha was thought to be light, with the feeling of leather, thus the light brown and brown color.',
                 colorImage: 'https://i.imgur.com/akCgJ2t.png',
                 iconText: 'Font Awesome icons were used in this project, so I did not create any of them myself.',
                 iconImage: 'https://i.imgur.com/IYavzcC.png',
@@ -58,7 +58,7 @@ const projects = [
             text: 'The process included designing the Board Game, developing it, testing it, and publishing it. ',
             image: '',
             design: [{
-                colorText: 'colors text here',
+                colorText: 'In this color scheme, the idea was to give the mysterious feeling that Game of Thrones normaly has. The gold in the navigation and in the illustrations is representing gold, wealth and power. The red is to symbolise danger and blood, which is well-represented in the real series.',
                 colorImage: 'https://i.imgur.com/SQJeKdt.png',
                 iconText: 'The icons and illustrations used in this game were all based on Game of Thrones. All the characters were made from the real images, but made with a cartoon-look and black and white layer so they would still be recognizable. <br><br> The illustrations were made mostly from scrath, but some elements are image traced from different images on the web. ',
                 iconImage: 'https://i.imgur.com/Qk2Egxw.png',
@@ -82,7 +82,7 @@ const projects = [
             text: 'The process included sketching the dashboard, creating a Strapi user and create information in Strapi, and develop the dashboard using React. ',
             image: '',
             design: [{
-                colorText: 'colors text here',
+                colorText: 'The colors for the Dashboard was intended to be comfortable to look at during day and night, and to look a bit modern. The orange for buttons gives a nice contrast to the blue, and makes them easy to notice.',
                 colorImage: 'https://i.imgur.com/iMpx3b9.png',
                 iconText: 'Font Awesome icons were used in this project, so I did not create any of them myself. The icons for weather were icons directly from the API',
                 iconImage: 'https://i.imgur.com/IYavzcC.png',

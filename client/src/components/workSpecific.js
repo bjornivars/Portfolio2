@@ -12,25 +12,25 @@ const WorkClick = (props) => {
                         <p dangerouslySetInnerHTML={{ __html: brief }} className=' [ project-container-p cursive ] ' />
                         <img className=' [ col-12 m-auto col-mobile-11 ] ' src={imageUrl} alt={name} />
                         <div className=' [ col-12 m-auto ] '>
-                            <h3>Design</h3>
-                            <h4>Colors</h4>
+                            <h3 className=' [ specific-box-subheader ] '>Design</h3>
+                            <h4 className=' [ specific-box-subheader ] '>Colors</h4>
                             <img className=' [ col-8 m-auto col-mobile-11 ] ' src={colorImage} alt='Color Pallette' />
                             <p dangerouslySetInnerHTML={{ __html: colorText }} className='project-container-p' />
 
-                            <h4>Icons</h4>
+                            <h4 className=' [ specific-box-subheader ] '>Icons</h4>
                             <img className=' [ col-8 m-auto col-mobile-11 ] ' src={iconImage} alt='Icons' />
                             <p dangerouslySetInnerHTML={{ __html: iconText }} className='project-container-p' />
 
 
-                            <h4>Prototype and Layout</h4>
+                            <h4 className=' [ specific-box-subheader ] '>Prototype and Layout</h4>
                             <img className=' [ col-8 m-auto col-mobile-11 ] ' src={prototypeImage} alt='Prototype and Layout' />
                             <p dangerouslySetInnerHTML={{ __html: prototypeText }} className='project-container-p' />
 
-                            <h3>Development</h3>
+                            <h3 className=' [ specific-box-subheader ] '>Development</h3>
                             <img className=' [ col-8 m-auto col-mobile-11 ] ' src={developImage} alt='Icons' />
                             <p dangerouslySetInnerHTML={{ __html: developText }} className='project-container-p' />
 
-                            <h3>Check out the final result!</h3>
+                            <h3 className=' [ specific-box-subheader ] '>Check out the final result!</h3>
                             <Link to=''>
                                 <img className=' [ col-8 m-auto col-mobile-11 ] ' src={imageUrl} alt='Icons' />
                             </Link>
