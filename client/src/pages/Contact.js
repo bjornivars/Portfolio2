@@ -1,4 +1,5 @@
 import React from 'react';
+import axios from 'axios';
 import { useForm } from 'react-hook-form';
 import Fade from 'react-reveal/Fade';
 
@@ -12,6 +13,12 @@ export default function App() {
             url: 'https://submit-form.com/OqasYc1l-o24N3tDSW55W',
             data: data
         })
+        .then(function (response) {
+            console.log(response);
+        })
+        .catch(function (error) {
+            console.log(error);
+        });
     }; // your form submit function which will invoke after successful validation
 
     console.log(watch("example")); // you can watch individual input by pass the name of the input
