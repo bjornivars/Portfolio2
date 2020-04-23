@@ -16,7 +16,7 @@ const WorkClick = (props) => {
                             <img className=' [ col-8 m-auto col-mobile-11 ] ' src={colorImage} alt='Color Pallette' />
                             <p dangerouslySetInnerHTML={{ __html: colorText }} className='project-container-p' />
 
-                            <h4 className=' [ specific-box-subheader ] '>Icons</h4>
+                            <h4 className=' [ specific-box-subheader ] '>Icons / illustrations</h4>
                             <img className=' [ col-8 m-auto col-mobile-11 ] ' src={iconImage} alt='Icons' />
                             <p dangerouslySetInnerHTML={{ __html: iconText }} className='project-container-p' />
 

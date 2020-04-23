@@ -83,18 +83,18 @@ const projects = [
         imageUrl: 'https://i.imgur.com/VnOnAzs.png',
         websiteUrl: 'https://bjornivars-homefair.netlify.app/index.html',
         process: [{
-            text: 'The process including creating a design system for Homefair, make a sketch of the site, and develop this.',
+            text: 'The process including creating a design system for Homefair, make a sketch of the site, and develop the website according to the design system',
             image: '',
             design: [{
-                colorText: 'text here',
+                colorText: 'The colors for this website was chosen give the website a subtle, calm look. When it comes to money, people need to trust the website, and the calm blue supports this. The light-blue color is first presented in the navigation and in the header-image. The blue sky is also used to give the user a happy and calming feeling. The darker blue is used mainly in buttons and some parts of the illustrations.',
                 colorImage: 'https://i.imgur.com/EUlCRoZ.png',
-                iconText: 'mention Huumans',
+                iconText: 'The illustrations for this website was made using the humaaans illustration library. I created the illustrations according to what the client wanted. Some parts were made in Adobe Illustrator as they were not available in the library.',
                 iconImage: 'https://i.imgur.com/5119URJ.png',
-                prototypeText: '',
+                prototypeText: 'The prototype was based on the Design system. I did not use most of the original design system, so the prototype and layout changed throughout the project.',
                 prototypeImage: 'https://i.imgur.com/gCy1fyj.png',
             }],
             develop: [{
-                text: '',
+                text: 'The development in this project was based on only HTML, CSS and JavaScript. No libraries for the development were allowed.',
                 image: 'https://i.imgur.com/xKTXdEQ.png',
             }],
         }]
