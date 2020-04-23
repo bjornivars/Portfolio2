@@ -11,14 +11,17 @@ export default function App() {
         axios({
             method: 'post',
             url: 'https://submit-form.com/OqasYc1l-o24N3tDSW55W',
-            data: data
-        })
-        .then(function (response) {
-            console.log(response);
-        })
-        .catch(function (error) {
-            console.log(error);
-        });
+            data: data,
+            headers: {'Content-Type': 'multipart/form-data' }
+            })
+            .then(function (response) {
+                //handle success
+                console.log(response);
+            })
+            .catch(function (response) {
+                //handle error
+                console.log(response);
+            });
     }; // your form submit function which will invoke after successful validation
 
     console.log(watch("example")); // you can watch individual input by pass the name of the input
