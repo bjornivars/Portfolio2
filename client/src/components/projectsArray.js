@@ -70,7 +70,7 @@ const projects = [
             }],
             develop: [{
                 text: 'This project was not so much about design as it was about the development of the game mechanics. Most of the time on this project was spent on making the game work using only JavaScript. This project gave me a lot of frustration, but also a lot of new knowledge about JavaScript.',
-                image: 'https://i.imgur.com/dj8zmuI.png',
+                image: 'https://i.imgur.com/Lzibik9.png',
             }],
         }]
     },

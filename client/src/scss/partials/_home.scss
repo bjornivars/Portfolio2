@@ -27,7 +27,12 @@
     margin-top: 8em;
 }
 
-
+@media screen and (min-width: 600px) and (max-width: 1100px) {
+    
+.logo-img{
+    margin-top: 7em; 
+}
+}
 
 @media screen and (max-width: 599px) {
     .subhead{
@@ -43,15 +48,8 @@
             margin-top: 1em;
         }
     }
+    .logo-img{
+        margin-top: 7em; 
+    }
 }
 
-@media screen and (min-width: 320px) {
-    .subhead-span {
-      font-size: calc(30px + 10 * ((100vw - 320px) / 680));
-    }
-  }
-  @media screen and (min-width: 1200px) {
-    .subhead-span {
-      font-size: 3em;
-    }
-  }

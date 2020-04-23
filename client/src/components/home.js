@@ -26,7 +26,7 @@ const HomePage = () => {
                     <img className=' [ col-6 col-mobile-12 m-auto ] ' src={require('./../assets/Logos/BIS_logoWhite_logoPNG.png')} alt='logo' />
                 </div>
             </Zoom>
-            <div className=' [ subhead col-8 col-mobile-12 m-auto ] '>
+            <div className=' [ subhead col-8 col-tablet-10 col-mobile-12 m-auto ] '>
                 <Bounce left delay={750}>
                     <div>
                         <Link to='/work' className=' [ subhead-design ] ' >

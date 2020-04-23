@@ -9,6 +9,11 @@
     .cv{
         &-container{
             display: block;
+            margin-top: 4em;
         }
     }
+}
+
+.wordWrap{
+    overflow-wrap: break-word;
 }

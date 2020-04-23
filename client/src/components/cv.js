@@ -10,7 +10,7 @@ const CvPage = () => {
                 <Fade bottom>
                     <div className=' [ cv-container col-10 col-mobile-11 ] '>
                         <div className=' [ cv-container-company col-5 col-mobile-12 ] '>
-                            <h4 className=' [ col-12 col-mobile-12 ] '>ELKJØP NORDIC AS</h4>
+                            <h4 className=' [ col-12 col-mobile-12 wordWrap ] '>ELKJØP NORDIC AS</h4>
                             <h5>2019 - PRESENT</h5>
                         </div>
                         <div className=' [ cv-container-proffession col-6 col-mobile-12 ] '>
@@ -22,7 +22,7 @@ const CvPage = () => {
                 <Fade bottom>
                     <div className=' [ cv-container col-10 col-mobile-11 ] '>
                         <div className=' [ cv-container-company col-5 col-mobile-12 ] '>
-                            <h4 className='[ col-12 col-mobile-12 ] '>PRIMA ASSISTANSE</h4>
+                            <h4 className='[ col-12 col-mobile-12 wordWrap ] '>PRIMA ASSISTANSE</h4>
                             <h5>2018 - 2020</h5>
                         </div>
                         <div className='[ cv-container-proffession col-6 col-mobile-12 ] '>
@@ -34,7 +34,7 @@ const CvPage = () => {
                 <Fade bottom>
                     <div className=' [ cv-container col-10 col-mobile-11 ] '>
                         <div className=' [ cv-container-company col-5 col-mobile-12 ] '>
-                            <h4 className=' [ col-12 col-mobile-12 ] '>LYKKELITEN BARNEHAGE</h4>
+                            <h4 className=' [ col-12 col-mobile-12 wordWrap ] '>LYKKELITEN BARNEHAGE</h4>
                             <h5>2017</h5>
                         </div>
                         <div className='[ cv-container-proffession col-6 col-mobile-12 ] '>
@@ -46,7 +46,7 @@ const CvPage = () => {
                 <Fade bottom>
                     <div className='cv-container col-10 col-mobile-11'>
                         <div className='cv-container-company col-5 col-mobile-12'>
-                            <h4 className='[ col-12 col-mobile-12 ] '>NORWEGIAN ARMED FORCES</h4>
+                            <h4 className='[ col-12 col-mobile-12 wordWrap ] '>NORWEGIAN ARMED FORCES</h4>
                             <h5>2016 - 2017</h5>
                         </div>
                         <div className='[ cv-container-proffession col-6 col-mobile-12 ] '>
@@ -58,7 +58,7 @@ const CvPage = () => {
                 <Fade bottom>
                     <div className=' [ cv-container col-10 col-mobile-11 ] '>
                         <div className=' [ cv-container-company col-5 col-mobile-12 ] '>
-                            <h4 className='[ col-12 col-mobile-12 ] '>ÅLESUND KOMMUNE</h4>
+                            <h4 className='[ col-12 col-mobile-12 wordWrap ] '>ÅLESUND KOMMUNE</h4>
                             <h5>2014 - 2017</h5>
                         </div>
                         <div className='[ cv-container-proffession col-6 col-mobile-12 ] '>
@@ -70,7 +70,7 @@ const CvPage = () => {
                 <Fade bottom>
                     <div className=' [ cv-container col-10 col-mobile-11 ] '>
                         <div className=' [ cv-container-company col-4 col-mobile-12 ] '>
-                            <h4 className='[ col-12 col-mobile-12 ] '>NORGESGRUPPEN</h4>
+                            <h4 className='[ col-12 col-mobile-12 wordWrap ] '>NORGESGRUPPEN</h4>
                             <h5>2012 - 2016</h5>
                         </div>
                         <div className='[ cv-container-proffession col-6 col-mobile-12 ] '>

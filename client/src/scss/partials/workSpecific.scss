@@ -1,10 +1,20 @@
 .specific{
     &-box{
+        &-img{
+            margin-bottom: 3em;
+        }
         &-header{
             margin-top: 5em;
         }
         &-subheader{
             margin-bottom: 1em;
         }
+    }
+}
+
+// Mobile
+@media screen and (max-width: 599px) {
+    .back{
+        display: none;
     }
 }

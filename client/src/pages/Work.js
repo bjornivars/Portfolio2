@@ -5,7 +5,7 @@ import projects from './../components/projectsArray';
 
 export default function Work() {
 
-    console.log(projects)
+    //console.log(projects)
     return (
         <div className=' [ container ] '>
             <div className=' [ container-paddingSide ] '>

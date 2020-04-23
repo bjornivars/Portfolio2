@@ -31,7 +31,32 @@
     }
 }
 
+// Tablet
+@media screen and (min-width: 600px) and (max-width: 1100px) {
+    .project{
+        &-container{
+            display: block;
+            margin-bottom: 5em;
+            margin-top: 5em;
+            &-divimg{
+                margin: auto;
+            }
+            &-img{
+                padding: 1em;
+                border: 3px solid $white;
+            }
+            &-text{
+                margin: auto;
+            }
+            &-p{
+                color: $light-grey;
+                margin-bottom: 2em;
+            }
+        }
+    }
+}
 
+// Mobile
 @media screen and (max-width: 599px) {
     .project{
         &-container{
@@ -40,7 +65,7 @@
             margin-top: 5em;
             &-p{
                 color: $light-grey;
-                margin-bottom: 4.5em;
+                margin-bottom: 2.5em;
             }
         }
     }
