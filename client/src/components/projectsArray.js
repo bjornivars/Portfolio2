@@ -76,6 +76,39 @@ const projects = [
     },
     {
         id: 4,
+        name: 'HomeFair',
+        type: 'Website',
+        intro: 'HomeFair was a project where I designed and developed a firs draft of a website for a company that are estimating price of real estates in Norway.',
+        brief: 'Use the components from the Design System to create the clients web site. Use the text and images given by the client. You are free to use or photos that are royalty free or make your own graphics. You can use library or frameworks but not for visual support. (Bootstrap is not permitted)',
+        imageUrl: 'https://i.imgur.com/VnOnAzs.png',
+        websiteUrl: 'https://bjornivars-homefair.netlify.app/index.html',
+        process: [{
+            text: 'The process including creating a design system for Homefair, make a sketch of the site, and develop this.',
+            image: '',
+            design: [{
+                colorText: 'text here',
+                colorImage: 'https://i.imgur.com/EUlCRoZ.png',
+                iconText: 'mention Huumans',
+                iconImage: 'https://i.imgur.com/5119URJ.png',
+                prototypeText: '',
+                prototypeImage: 'https://i.imgur.com/gCy1fyj.png',
+            }],
+            develop: [{
+                text: '',
+                image: 'https://i.imgur.com/xKTXdEQ.png',
+            }],
+        }]
+    }
+]
+
+export default projects;
+
+
+
+/*
+REACT DASHBOARD
+    {
+        id: 4,
         name: 'React Dashboard',
         type: 'Dashboard',
         intro: 'This was a project I did when learning React. It is a dashboard where I focused on routing, fetching APIs, and creating login and data using Strapi.',
@@ -99,6 +132,5 @@ const projects = [
             }],
         }]
     }
-]
 
-export default projects;
+    */
