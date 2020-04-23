@@ -7,6 +7,11 @@ export default function App() {
     const { register, handleSubmit, watch, errors } = useForm();
     const onSubmit = data => {
         console.log(data);
+        axios({
+            method: 'post',
+            url: 'https://submit-form.com/OqasYc1l-o24N3tDSW55W',
+            data: data
+        })
     }; // your form submit function which will invoke after successful validation
 
     console.log(watch("example")); // you can watch individual input by pass the name of the input
