@@ -14,19 +14,19 @@ const WorkClick = (props) => {
                             <img className=' [ col-12 divider ] ' src={require('./../assets/Icons/workSplitter.png')} alt='divider' />
                         </div>
                         <div className=' [ col-12 m-auto ] '>
-                            <h3 className=' [ specific-box-subheader m-auto col-8 col-tablet-12 col-mobile-12 ] '>Design</h3>
-                            <h4 className=' [ specific-box-subheader m-auto col-8 col-tablet-12 col-mobile-12 ] '>Colors</h4>
+                            <h3 className=' [ specific-box-subheader m-auto col-8 col-tablet-12 col-mobile-12 slab ] '>Design</h3>
+                            <h4 className=' [ specific-box-subheader m-auto col-8 col-tablet-12 col-mobile-12 slab ] '>Colors</h4>
                             <img className=' [ specific-box-subimg col-8 col-tablet-12 d-flex m-auto col-mobile-11 ] ' src={colorImage} alt='Color Pallette' />
                             <p dangerouslySetInnerHTML={{ __html: colorText }} className=' [ project-container-p m-auto col-8 col-tablet-12 col-mobile-12  ] ' />
 
-                            <h4 className=' [ specific-box-subheader m-auto col-8 col-tablet-12 col-mobile-12 ] '>Icons / illustrations</h4>
+                            <h4 className=' [ specific-box-subheader m-auto col-8 col-tablet-12 col-mobile-12 slab ] '>Icons / illustrations</h4>
                             <img className=' [ specific-box-subimg col-8 col-tablet-12 d-flex m-auto col-mobile-11 ] ' src={iconImage} alt='Icons' />
                             <p dangerouslySetInnerHTML={{ __html: iconText }} className=' [ project-container-p m-auto col-8 col-tablet-12 col-mobile-12 m-auto ] ' />
 
                             <div className=' [ col-2 m-auto ] '>
                                 <img className=' [ col-12 divider ] ' src={require('./../assets/Icons/workSplitter.png')} alt='divider' />
                             </div>
-                            <h4 className=' [ specific-box-subheader m-auto col-8 col-tablet-12 col-mobile-12 ] '>Prototype and Layout</h4>
+                            <h4 className=' [ specific-box-subheader m-auto col-8 col-tablet-12 col-mobile-12 slab ] '>Prototype and Layout</h4>
                             <img className=' [ specific-box-subimg col-8 col-tablet-12 d-flex m-auto col-mobile-11 ] ' src={prototypeImage} alt='Prototype and Layout' />
                             <p dangerouslySetInnerHTML={{ __html: prototypeText }} className=' [ project-container-p m-auto col-8 col-tablet-12 col-mobile-12  ] ' />
 
@@ -34,7 +34,7 @@ const WorkClick = (props) => {
                                 <img className=' [ col-12 divider ] ' src={require('./../assets/Icons/workSplitter.png')} alt='divider' />
                             </div>
 
-                            <h3 className=' [ specific-box-subheader m-auto col-8 col-tablet-12 col-mobile-12 ] '>Development</h3>
+                            <h3 className=' [ specific-box-subheader m-auto col-8 col-tablet-12 col-mobile-12 slab ] '>Development</h3>
                             <img className=' [ specific-box-subimg col-8 col-tablet-12 d-flex m-auto col-mobile-11 ] ' src={developImage} alt='Icons' />
                             <p dangerouslySetInnerHTML={{ __html: developText }} className=' [ project-container-p m-auto col-8 col-tablet-12 col-mobile-12  ] ' />
 
@@ -42,7 +42,7 @@ const WorkClick = (props) => {
                                 <img className=' [ col-12 divider ] ' src={require('./../assets/Icons/workSplitter.png')} alt='divider' />
                             </div>
 
-                            <h3 className=' [ specific-box-subheader m-auto col-8 col-tablet-12 col-mobile-12 ] '>Check out the final result!</h3>
+                            <h3 className=' [ specific-box-subheader m-auto col-8 col-tablet-12 col-mobile-12 slab ] '>Check out the final result!</h3>
                             <a href={websiteUrl} target='_blank' rel="noopener noreferrer">
                                 <img className=' [ specific-box-subimg col-8 col-tablet-12 d-flex m-auto col-mobile-11 ] ' src={imageUrl} alt='Icons' />
                             </a>

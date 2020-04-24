@@ -70,6 +70,7 @@ h1{
 h2{
     font-weight: 300;
     margin-bottom: 0;
+    font-family: 'Roboto Slab', 'sans-serif';
 }
 h3{
     font-size: 30px;
@@ -114,6 +115,11 @@ a{
 .divider{
     margin-top: 5em;
     margin-bottom: 5em;
+}
+
+.slab{
+    font-family: 'Roboto Slab', 'sans-serif';
+    color: $white;
 }
 
 // DISPLAYS
