@@ -1,26 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
 import axios from 'axios';
 import { useForm } from 'react-hook-form';
 import Fade from 'react-reveal/Fade';
 
 
 export default function App() {
+    const [correctlySent, setcorrectlySent] = useState(undefined);
+
     const { register, handleSubmit, watch, errors } = useForm();
     const onSubmit = data => {
-        console.log(data);
-        axios({
-            method: 'post',
-            url: 'https://submit-form.com/OqasYc1l-o24N3tDSW55W',
-            data: data,
-            headers: {'Content-Type': 'multipart/form-data' }
+        //console.log(data.firstName);
+
+        axios
+            .post("https://submit-form.com/OqasYc1l-o24N3tDSW55W", {
+                firstName: data.firstName,
+                lastName: data.lastName,
+                email: data.email,
+                mobileNumber: data.mobileNumber,
+                message: data.message
             })
             .then(function (response) {
-                //handle success
-                console.log(response);
+                setcorrectlySent('Thanks for contacting me.')
             })
             .catch(function (response) {
-                //handle error
-                console.log(response);
+                setcorrectlySent('Oh no! Something went wrong.')
             });
     }; // your form submit function which will invoke after successful validation
 
@@ -76,6 +79,8 @@ export default function App() {
                             ref={register({ required: true, maxLength: 800 })} />
                         {errors.message && <p>Message is required</p>}
                     </div>
+                    <p className={' [ correct ] '}>{correctlySent}</p>
+
                     <div>
                         <input type="submit" />
                     </div>
