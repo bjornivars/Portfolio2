@@ -24,7 +24,7 @@ const CvCoursesPage = () => {
                 <Fade bottom>
                     <div className='[ cv-container col-10 col-tablet-12 col-mobile-11 ]'>
                         <div className='[ cv-container-company col-5 col-tablet-12 col-mobile-12 ]'>
-                            <h4 className='[ col-12 col-tablet-12 col-mobile-12 wordWrap ]'>NORSK RESUSCIATASJONSRÅD</h4>
+                            <h4 className='[ col-12 col-tablet-12 col-mobile-12 wordWrap ]'>NORSK  RESUSCITASJONSRÅD</h4>
                             <h5>2018</h5>
                         </div>
                         <div className=' [ cv-container-proffession col-6 col-tablet-12 col-mobile-12 ] '>

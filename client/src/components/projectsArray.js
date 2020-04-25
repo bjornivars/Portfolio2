@@ -102,35 +102,3 @@ const projects = [
 ]
 
 export default projects;
-
-
-
-/*
-REACT DASHBOARD
-    {
-        id: 4,
-        name: 'React Dashboard',
-        type: 'Dashboard',
-        intro: 'This was a project I did when learning React. It is a dashboard where I focused on routing, fetching APIs, and creating login and data using Strapi.',
-        brief: 'Make a dashboard where you can search for movies, check the weather, read a random fact, and check crypto currency. You should also make a Blog page, a Contact page, a Profile page, and a Job page. You should be able to search after specific jobs. Use Strapi to log into your dashboard.',
-        imageUrl: 'https://i.imgur.com/4Zp6jjV.png',
-        websiteUrl: 'https://bjornivars-letha.netlify.app/',
-        process: [{
-            text: 'The process included sketching the dashboard, creating a Strapi user and create information in Strapi, and develop the dashboard using React. ',
-            image: '',
-            design: [{
-                colorText: 'The colors for the Dashboard was intended to be comfortable to look at during day and night, and to look a bit modern. The orange for buttons gives a nice contrast to the blue, and makes them easy to notice.',
-                colorImage: 'https://i.imgur.com/iMpx3b9.png',
-                iconText: 'Font Awesome icons were used in this project, so I did not create any of them myself. The icons for weather were icons directly from the API',
-                iconImage: 'https://i.imgur.com/IYavzcC.png',
-                prototypeText: 'Since this was a create as you go project, I did not make any detailed sketches for this one. I did a non-detailed sketch to collect my thoughts on how it should look, but nothing specific. Therefore, the final result and the sketch is not matching as much as i anticipated.',
-                prototypeImage: 'https://i.imgur.com/ypkRExV.png',
-            }],
-            develop: [{
-                text: 'This project was made to learn React basics. Fetching APIs, changing between Views, searching for items inside the APIs etc. There was no use of Hooks, or any React libraries. I did use Bootstrap and Sass for layout and styling.',
-                image: 'https://i.imgur.com/qLp6Wan.png',
-            }],
-        }]
-    }
-
-    */
