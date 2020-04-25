@@ -28,7 +28,7 @@ const projects = [
         id: 2,
         name: 'LETHA',
         type: 'E-commerce example',
-        intro: 'This was an e-commerce website example from my first year of school.',
+        intro: 'This was an e-commerce website example from my first year of my studies at Noroff.',
         brief: 'Create an e-commerce website for a leather shoe company called ‘Letha’. The company emphasizes that their shoes are handcrafted and that the leather they use is organic and sustainably made. Letha has a target audience of affluent and trendy 20 and 30 somethings.',
         imageUrl: 'https://i.imgur.com/obgeNBJ.png',
         websiteUrl: 'https://bjornivars-letha.netlify.app/',
