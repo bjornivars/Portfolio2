@@ -28,28 +28,18 @@
 }
 
 @media screen and (min-width: 600px) and (max-width: 1100px) {
-    
-.logo-img{
-    margin-top: 7em; 
-}
+    .subhead{
+        margin-top: 15em;
+    }
+    .logo-img{
+        margin-top: 15em; 
+    }
+    .social{
+        font-size: 30px;
+    }
 }
 
 @media screen and (max-width: 599px) {
-    .subhead{
-        display: block;
-        text-align: center;
-        &-design{
-            margin-top: 1em;
-        }
-        &-develop{
-            margin-top: 1em;
-        }
-        &-ux{
-            margin-top: 1em;
-        }
-    }
-    .logo-img{
-        margin-top: 7em; 
-    }
+
 }
 

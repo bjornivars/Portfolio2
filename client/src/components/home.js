@@ -22,11 +22,11 @@ const HomePage = () => {
     return (
         <div>
             <Zoom top delay={100}>
-                <div className=' [ logo-img col-12 col-mobile-12 text-center ] '>
-                    <img className=' [ col-6 col-mobile-12 m-auto ] ' src={require('./../assets/Logos/BIS_logoWhite_logoPNG.png')} alt='logo' />
+                <div className=' [ logo-img col-12 col-mobile-12 col-tablet-12 text-center ] '>
+                    <img className=' [ col-6 col-tablet-12 col-mobile-12 m-auto ] ' src={require('./../assets/Logos/BIS_logoWhite_logoPNG.png')} alt='logo' />
                 </div>
             </Zoom>
-            <div className=' [ subhead col-8 col-tablet-10 col-mobile-12 m-auto ] '>
+            <div className=' [ subhead col-8 col-tablet-12 col-mobile-12 m-auto ] '>
                 <Bounce left delay={750}>
                     <div>
                         <Link to='/work' className=' [ subhead-design ] ' >
@@ -46,7 +46,7 @@ const HomePage = () => {
                 </Bounce>
             </div>
             <Fade delay={1250}>
-                <div className=' [ social col-4 col-mobile-8 m-auto d-flex jc-between ] '>
+                <div className=' [ social col-4 col-tablet-8 col-mobile-8 m-auto d-flex jc-between ] '>
                     <a href='https://www.linkedin.com/in/bjorn-ivar-skuggen/' target='_blank' rel="noopener noreferrer">
                         <div className=' [ social-fb ] '>
                             <FontAwesomeIcon

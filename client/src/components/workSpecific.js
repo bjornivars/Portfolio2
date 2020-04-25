@@ -1,14 +1,29 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+    faArrowLeft
+} from '@fortawesome/free-solid-svg-icons';
 
 const WorkClick = (props) => {
     const { name, type, brief, imageUrl, colorText, colorImage, iconText, iconImage, prototypeText, prototypeImage, developImage, developText, websiteUrl } = props;
     return (
         <>
-            <div className=' [ col-8 col-mobile-10 m-auto ] '>
+            <div>
+                <Link to='/work' className=' [ back ] '>
+                    <FontAwesomeIcon
+                        icon={faArrowLeft}
+                        size='lg'
+                        className=' [ back-arrow ] '
+                    />
+                    <span className=' [ back-arrow-text ] '>Back</span>
+                </Link>
+            </div>
+            <div className=' [ col-10 col-tablet-12 col-mobile-10 m-auto ] '>
                 <div className=' [ specific ] '>
                     <div className=' [ specific-box col-12 ] '>
                         <h1 className=' [ specific-box-header ] '>{name} - {type}</h1>
-                        <p dangerouslySetInnerHTML={{ __html: brief }} className=' [ project-container-p col-8 cursive  col-mobile-12 ] ' />
+                        <p dangerouslySetInnerHTML={{ __html: brief }} className=' [ project-container-p col-8 col-tablet-12 cursive  col-mobile-12 ] ' />
                         <img className=' [ col-12 m-auto col-mobile-11 specific-box-img ] ' src={imageUrl} alt={name} />
                         <div className=' [ col-2 m-auto ] '>
                             <img className=' [ col-12 divider ] ' src={require('./../assets/Icons/workSplitter.png')} alt='divider' />

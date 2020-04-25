@@ -5,7 +5,7 @@ const Footer = () => {
 
     return(
         <div>
-            <div className=' [ footer col-12 col-mobile-12] '>
+            <div className=' [ footer col-12 col-mobile-12 ] '>
                 <div className=' [ footer-imgBox col-12 text-center ] '>
                     <img className=' [ footer-imgBox-img col-1 ] ' alt='footer logo' src={require('./../assets/Logos/BIS_logoEmblemWhite.png')} />
                 </div>

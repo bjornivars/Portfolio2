@@ -44,12 +44,13 @@ export default function App() {
     (watch("")); // ignore this plz
     return (
         <div className=' [ container ] '>
-            <div className=' [ container-paddingSide blue ] '>
-                <h1 className=' [ headline ] '>
+            <div className=' [ container-paddingSide ] '>
+                <h1 className=' [ headline blue ] '>
                     Feel free to contact me! <br />
                     Fill out the form below
                 </h1>
             </div>
+            <div className=' [ col-12 col-tablet-12 col-mobile-12 ] '>
             <Fade left delay={200}>
                 <form onSubmit={handleSubmit(onSubmit)} action='https://submit-form.com/OqasYc1l-o24N3tDSW55W'>
                     <div>
@@ -103,6 +104,7 @@ export default function App() {
                     <p className={' [ correct ] '}>{correctlySent}</p>
                 </form>
             </Fade>
+            </div>
         </div>
     );
 }

@@ -12,6 +12,11 @@
             color: $light-grey;
             margin-bottom: 4.5em;
         }
+        &-btn{
+            border: 2px solid $white;
+            padding: .5em 1.5em;
+            background-color: transparent;
+        }
     }
 }
 .back{
@@ -42,6 +47,7 @@
                 margin: auto;
             }
             &-img{
+                box-sizing: border-box;
                 padding: 1em;
                 border: 3px solid $white;
             }
@@ -50,7 +56,13 @@
             }
             &-p{
                 color: $light-grey;
-                margin-bottom: 2em;
+                margin-bottom: 3em;
+                margin-top: 2em;
+            }
+            &-btn{
+                border: 3px solid $white;
+                padding: .5em 1.5em;
+                background-color: transparent;
             }
         }
     }
