@@ -22,12 +22,12 @@ const Navbar = () => {
         <div>
             <nav className=' [ navbar ] '>
                 <div className=' [ d-flex jc-between ] '>
-                    <Link to='/'><img className=' [ navbar-nav-img col-2 col-mobile-4 ] '
-                        srcSet={`${mobileLogo} 700w, ${desktopLogo} 1280w`}
-                        sizes="(max-width: 600px) 700px,
-                                1200px"
-                        src={mobileLogo}
-                        alt='logo' /></Link>
+                    <Link to='/'>
+                        <img className=' [ navbar-nav-img col-2 col-mobile-4 ] '
+                            srcSet={`${mobileLogo} 700w, ${desktopLogo} 1280w`}
+                            sizes="(max-width: 600px) 700px, 1200px"
+                            src={mobileLogo}
+                            alt='logo' /></Link>
                     <button className=' [ navbar-burger-btn ] ' type='button' onClick={(showMore !== true) ? handleOpenClick : handleCloseClick}>
                         <FontAwesomeIcon icon={(showMore !== true) ? faBars : faTimes} className=' [ col-mobile-6 ] ' />
                     </button>

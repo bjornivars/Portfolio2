@@ -27,7 +27,7 @@ const CvPage = () => {
                         </div>
                         <div className='[ cv-container-proffession col-6 col-tablet-12 col-mobile-12 ] '>
                             <h3>HEALTH CARE WORKER</h3>
-                            <h5 className='[ col-12 col-tablet-12 col-mobile-12 ]  '><a className='purple' href="https://prima-assistanse.no/" target="_blank" rel="noopener noreferrer">https://prima-assistanse.no/</a> </h5>
+                            <h5 className='[ col-12 col-tablet-12 col-mobile-12 ]  '><a className=' [ purple ] ' href="https://prima-assistanse.no/" target="_blank" rel="noopener noreferrer">https://prima-assistanse.no/</a> </h5>
                         </div>
                     </div>
                 </Fade>
@@ -44,14 +44,14 @@ const CvPage = () => {
                     </div>
                 </Fade>
                 <Fade bottom>
-                    <div className='cv-container col-10 col-tablet-12 col-mobile-11'>
-                        <div className='cv-container-company col-5 col-tablet-12 col-mobile-12'>
-                            <h4 className='[ col-12 col-tablet-12 col-mobile-12 wordWrap ] '>NORWEGIAN ARMED FORCES</h4>
+                    <div className=' [ cv-container col-10 col-tablet-12 col-mobile-11 ] '>
+                        <div className=' [ cv-container-company col-5 col-tablet-12 col-mobile-12 ] '>
+                            <h4 className=' [ col-12 col-tablet-12 col-mobile-12 wordWrap ] '>NORWEGIAN ARMED FORCES</h4>
                             <h5>2016 - 2017</h5>
                         </div>
                         <div className='[ cv-container-proffession col-6 col-tablet-12 col-mobile-12 ] '>
                             <h3>SECURITY AND PROTECTION</h3>
-                            <h5 className='[ col-12 col-tablet-12 col-mobile-12 ]  '><a className='purple' href="https://forsvaret.no/" target="_blank" rel="noopener noreferrer">https://forsvaret.no/</a> </h5>
+                            <h5 className='[ col-12 col-tablet-12 col-mobile-12 ]  '><a className=' [ purple ] ' href="https://forsvaret.no/" target="_blank" rel="noopener noreferrer">https://forsvaret.no/</a> </h5>
                         </div>
                     </div>
                 </Fade>

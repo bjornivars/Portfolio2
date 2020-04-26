@@ -14,7 +14,7 @@ export default function Cv() {
             </div>
             <CvPage />
             <div className=' [ container-paddingSide ] '>
-                <h1 className=' [ headline purple ] '>and aome courses..</h1>
+                <h1 className=' [ headline purple ] '>and some courses..</h1>
             </div>
             <CvCoursesPage />
         </div>

@@ -10,7 +10,7 @@ export default function WorkSpecific() {
         if (projects[proj].name.toLocaleLowerCase() === name) {
             let p = projects[proj]
             //console.log(p.process[0].design[0]);
-            
+
             return (
                 <div className=' [ container ] '>
 
