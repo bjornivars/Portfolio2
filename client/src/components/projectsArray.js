@@ -83,7 +83,7 @@ const projects = [
         imageUrl: 'https://i.imgur.com/VnOnAzs.png',
         websiteUrl: 'https://bjornivars-homefair.netlify.app/index.html',
         process: [{
-            text: 'The process including creating a design system for Homefair, make a sketch of the site, and develop the website according to the design system',
+            text: 'The process included creating a design system for Homefair, make a sketch of the site, and develop the website according to the design system',
             image: '',
             design: [{
                 colorText: 'The colors for this website was chosen give the website a subtle, calm look. When it comes to money, people need to trust the website, and the calm blue supports this. The light-blue color is first presented in the navigation and in the header-image. The blue sky is also used to give the user a happy and calming feeling. The darker blue is used mainly in buttons and some parts of the illustrations.',
@@ -96,6 +96,31 @@ const projects = [
             develop: [{
                 text: 'The development in this project was based on only HTML, CSS and JavaScript. No libraries for the development were allowed.',
                 image: 'https://i.imgur.com/xKTXdEQ.png',
+            }],
+        }]
+    },
+    {
+        id: 5,
+        name: 'Holidaze',
+        type: 'Booking Website',
+        intro: 'Holidaze was my final exam as a Frontend-student. The website is developed in React, using HTML, CSS, and JavaScript.',
+        brief: 'A local tourism agency in Bergen is launching a new website called ‘Holidaze’ for visitors to the area to be able to find hotels, B&Bs and guesthouses, and for the accommodation owners to receive enquiries. The project requires you to create the visitor side of the website where users can search accommodation and make enquiries, as well as the administration side where properties can be added and enquiries managed.',
+        imageUrl: 'https://i.imgur.com/uR1rbLu.png',
+        websiteUrl: 'https://bjornivars-holidaze.netlify.app/',
+        process: [{
+            text: 'The process included designin, prototyping and developing according to the design.',
+            image: '',
+            design: [{
+                colorText: 'The colors on top of the image is for the visitor-side of the website.  I wanted to try a few colors that I usually do not see on booking websites. <br><br> The purple color is made for all buttons and clickable links. This is done so the user eventually knows that “purple is clickable”. I tried to limit the number of buttons and links to a minimal to make the user click to proceed through the website instead of clicking all around and never getting where I want them; to book. <br><br> The blue is for the navigation-bar, and remains the same on all user-sites. <br><br> The orange is for HotelSpecific icons and price color to give the site more happy feeling. <br><br> The dark gray is for smaller icons such as maxGuests on allHotels and the “H” icon on typeahead. <br><br><br><br> The admin-site uses a lighter blue for navigation and other details. This is done as blue is a color more admin-related as it is considered a “tech” color.                ',
+                colorImage: 'https://i.imgur.com/ToYJRYk.png',
+                iconText: 'In my opinion, the best solution regarding icons for this kind of website is to keep it simple. Flat icons are easily understood by the users, and Font Awesome had some perfect icons for this project. I decided to make use of these as they worked well with my design. ',
+                iconImage: 'https://i.imgur.com/IYavzcC.png',
+                prototypeText: 'I used Adobe XD to plan and lay out how the website should look without any details. After deciding where the different elements of the page would fit, I continued to fill in the boxes with colors, images, buttons, icons, and text from the Style Tile.',
+                prototypeImage: 'https://i.imgur.com/69TaAkD.png',
+            }],
+            develop: [{
+                text: 'I created this project from scratch without the use of any CSS frameworks to show my skills without any shortcuts. The site is built in React, and uses Axios to fetch and post data, and Hooks for lifecycles. I did however use some dependencies along the way to show that this is something I manage aswell. E.g for validating the forms I used React-hook-form, Google-maps-react is used for displaying the location of a hotel, and simple-react-lightbox for modal of the image on hotelSpecific <br><br> There are some extra validation aswell, e.g regex using js, and sanitizing of the PHP code. <br><br> Filtering and searching is handled by useEffect within Axios.',
+                image: 'https://i.imgur.com/gbFwf9S.png',
             }],
         }]
     }
