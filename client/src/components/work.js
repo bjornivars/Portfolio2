@@ -1,6 +1,7 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 
+
 import { Link } from 'react-router-dom';
 
 const WorkPage = ({ name, type, intro, imageUrl }) => {

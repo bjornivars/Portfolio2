@@ -3,6 +3,7 @@ import React from 'react';
 import projects from './../components/projectsArray';
 import WorkClick from './../components/workSpecific';
 
+
 export default function WorkSpecific() {
     let { name } = useParams();
 
